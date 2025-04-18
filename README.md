@@ -12,7 +12,7 @@
 - ⚡️ Optimized with Vite for fast builds and hot reload
   ## Link - https://medilink-five.vercel.app/
 
- ![preview--virtual-health-bridge lovable app_](https://github.com/user-attachments/assets/b5ac8afb-2361-4f1f-8210-b4f1a66365d9)
+![preview--virtual-health-bridge lovable app_ (1)](https://github.com/user-attachments/assets/5c7a3c3b-91ff-4bae-95a8-c0099733dd29)
 
   
 ![med6](https://github.com/user-attachments/assets/deae79ef-3721-4f36-8924-ba0a510614a0)
