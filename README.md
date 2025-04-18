@@ -1,73 +1,91 @@
-# Welcome to your Lovable project
+# 🏥 MediLink
 
-## Project info
+**MediLink** is a modern web-based healthcare application designed to streamline virtual consultations, appointment management, and real-time communication between patients and healthcare professionals.
 
-**URL**: https://lovable.dev/projects/a7bb9b26-0d52-4878-970b-582454cf068a
+## 🚀 Features
 
-## How can I edit this code?
+- 🩺 Book virtual consultations with doctors
+- 🧾 Manage health records securely
+- 📆 Schedule and manage appointments
+- 💬 Real-time chat or messaging (if implemented)
+- 🌙 Light/dark mode UI with Tailwind CSS
+- ⚡️ Optimized with Vite for fast builds and hot reload
+  ## Link - https://medilink-five.vercel.app/
 
-There are several ways of editing your application.
+ ![preview--virtual-health-bridge lovable app_](https://github.com/user-attachments/assets/b5ac8afb-2361-4f1f-8210-b4f1a66365d9)
 
-**Use Lovable**
+  
+![med6](https://github.com/user-attachments/assets/deae79ef-3721-4f36-8924-ba0a510614a0)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a7bb9b26-0d52-4878-970b-582454cf068a) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+- **Frontend:** React 18, TypeScript
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Other Tools:** PostCSS, ESLint, Bun (lock file present)
+- **Design System:** Possibly using ShadCN or other component libraries
+![med](https://github.com/user-attachments/assets/22c2c45f-fdce-4337-99e3-a885c680976a)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+![med3](https://github.com/user-attachments/assets/96b74c6f-0974-48b8-a25c-d1630eb0a7e8)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+![med4](https://github.com/user-attachments/assets/2fbf320a-f0f6-4ccb-a8e0-2583db8492b4)
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+![med8](https://github.com/user-attachments/assets/06c8e2fb-68c8-445c-a806-9f070560e5a4)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📁 Project Structure
 
-# Step 3: Install the necessary dependencies.
-npm i
+```
+medilink/
+├── public/               # Static assets
+├── src/                  # Main app source
+│   ├── App.tsx           # Main app component
+│   ├── index.css         # Global styles
+│   └── ...               # Additional components/pages
+├── package.json          # Project metadata and scripts
+├── tailwind.config.ts    # Tailwind configuration
+├── vite.config.ts        # Vite configuration
+└── tsconfig.json         # TypeScript configuration
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/medilink.git
+cd medilink
+
+# Install dependencies
+npm install
+# or
+bun install
+```
+
+## 🔨 Running the Project
+
+```bash
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🧪 Linting & Formatting
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+# Run ESLint
+npm run lint
+```
 
-**Use GitHub Codespaces**
+## 📄 License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project is licensed under the [MIT License](LICENSE).
 
-## What technologies are used for this project?
+## 🙌 Acknowledgements
 
-This project is built with:
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a7bb9b26-0d52-4878-970b-582454cf068a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
